@@ -1,0 +1,35 @@
+# -*- coding: utf-8 -*-
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import random
+import pandas
+
+
+df = pd.read_csv("C:/Users/Jeet Das/Desktop/Project-30.csv",encoding="utf-8")
+
+print("\n----------------------- output data :---------------------\n")
+print("Project-30 : Men who have sex with men (MSM) with active syphilis (%) [By WHO]");
+print("\n------------------------------------------------------------\n")
+
+
+# Question – A : get row and column numbers 
+
+print('---------------------------------------------')
+print("Dimension of the data frame = ",df.shape)
+print('---------------------------------------------')
+
+
+
+
+----------------------- output data :---------------------
+
+Project-30 : Men who have sex with men (MSM) with active syphilis (%) [By WHO]
+
+------------------------------------------------------------
+
+---------------------------------------------
+Dimension of the data frame =  (316, 4)
+---------------------------------------------
+
+In [31]:
