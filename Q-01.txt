@@ -1,0 +1,255 @@
+# Question - 01 : Afghanistan
+
+Afghanistan = df[df.Location == 'Afghanistan']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Afghanistan[['Location','Period','First Tooltip']])
+
+# Question - 02 : Algeria  
+
+Algeria  = df[df.Location == 'Algeria']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Algeria[['Location','Period','First Tooltip']])                                                                         
+
+# Question - 03 : Argentina 
+
+Argentina  = df[df.Location == 'Argentina']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Argentina[['Location','Period','First Tooltip']])                                  
+
+# Question - 04 : Armenia 
+
+Armenia = df[df.Location == 'Armenia']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Armenia[['Location','Period','First Tooltip']])
+
+# Question - 05 : Bangladesh
+
+Bangladesh = df[df.Location == 'Bangladesh']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Bangladesh[['Location','Period','First Tooltip']])
+
+# Question - 06 : Central African Republic
+
+Central_African_Republic = df[df.Location == 'Central African Republic']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Central_African_Republic[['Location','Period','First Tooltip']])
+
+# Question - 07 : Chad
+
+Chad = df[df.Location == 'Chad']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Chad[['Location','Period','First Tooltip']])
+
+# Question - 08 : China
+
+China = df[df.Location == 'China']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(China[['Location','Period','First Tooltip']])
+
+# Question - 09 : India
+
+India = df[df.Location == 'India']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(India[['Location','Period','First Tooltip']])
+
+# Question - 10 : Indonesia
+
+Indonesia = df[df.Location == 'Indonesia']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Indonesia[['Location','Period','First Tooltip']])
+
+# Question - 11 : Thailand
+
+Thailand = df[df.Location == 'Thailand']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Thailand[['Location','Period','First Tooltip']])
+
+# Question - 12 : United Arab Emirates
+
+UAE = df[df.Location == 'United Arab Emirates']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(UAE[['Location','Period','First Tooltip']])
+
+# Question - 13 : Saudi Arabia
+
+Saudi_Arabia = df[df.Location == 'Saudi Arabia']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Saudi_Arabia[['Location','Period','First Tooltip']])
+
+# Question - 14 : South Africa
+
+South_Africa = df[df.Location == 'South Africa']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(South_Africa[['Location','Period','First Tooltip']])
+
+# Question - 15 : Chile
+
+Chile = df[df.Location == 'Chile']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Chile[['Location','Period','First Tooltip']])
+
+# Question - 16 : Brazil
+
+Brazil = df[df.Location == 'Brazil']
+print("\n\n--------------[ OUTPUT ]----------------------\n\n")
+print(Brazil[['Location','Period','First Tooltip']])
+
+
+
+--------------[ OUTPUT ]----------------------
+
+
+      Location  Period  First Tooltip
+0  Afghanistan    2018           0.76
+1  Afghanistan    2017          10.80
+2  Afghanistan    2012          10.20
+3  Afghanistan    2010          17.01
+
+
+--------------[ OUTPUT ]----------------------
+
+
+  Location  Period  First Tooltip
+4  Algeria    2018            2.2
+5  Algeria    2017            2.9
+6  Algeria    2016           36.6
+
+
+--------------[ OUTPUT ]----------------------
+
+
+     Location  Period  First Tooltip
+11  Argentina    2014          17.70
+12  Argentina    2013          18.10
+13  Argentina    2009          20.12
+14  Argentina    2008          20.12
+
+
+--------------[ OUTPUT ]----------------------
+
+
+   Location  Period  First Tooltip
+15  Armenia    2018            0.5
+16  Armenia    2016            0.0
+17  Armenia    2014            1.8
+18  Armenia    2012            1.9
+19  Armenia    2010            1.3
+
+
+--------------[ OUTPUT ]----------------------
+
+
+      Location  Period  First Tooltip
+25  Bangladesh    2016            1.1
+26  Bangladesh    2014            1.2
+27  Bangladesh    2013            1.7
+28  Bangladesh    2011            1.5
+29  Bangladesh    2010            1.0
+30  Bangladesh    2008            1.0
+
+
+--------------[ OUTPUT ]----------------------
+
+
+                    Location  Period  First Tooltip
+63  Central African Republic    2017           0.80
+64  Central African Republic    2013          10.50
+65  Central African Republic    2011           5.49
+
+
+--------------[ OUTPUT ]----------------------
+
+
+Empty DataFrame
+Columns: [Location, Period, First Tooltip]
+Index: []
+
+
+--------------[ OUTPUT ]----------------------
+
+
+   Location  Period  First Tooltip
+67    China    2018           4.80
+68    China    2017           5.10
+69    China    2014           5.98
+70    China    2013           6.30
+71    China    2012           7.54
+72    China    2011           7.80
+73    China    2010           8.41
+74    China    2008          12.13
+
+
+--------------[ OUTPUT ]----------------------
+
+
+    Location  Period  First Tooltip
+138    India    2018           0.45
+139    India    2017           0.40
+140    India    2016           0.37
+141    India    2014           0.30
+142    India    2012           0.77
+143    India    2008           3.26
+
+
+--------------[ OUTPUT ]----------------------
+
+
+      Location  Period  First Tooltip
+144  Indonesia    2018           9.70
+145  Indonesia    2017           7.70
+146  Indonesia    2016          10.20
+147  Indonesia    2014          16.40
+148  Indonesia    2013          19.90
+149  Indonesia    2012          21.92
+150  Indonesia    2011          17.52
+151  Indonesia    2010           8.01
+152  Indonesia    2008           4.01
+
+
+--------------[ OUTPUT ]----------------------
+
+
+     Location  Period  First Tooltip
+289  Thailand    2018           5.98
+290  Thailand    2013          24.40
+291  Thailand    2008          21.56
+
+
+--------------[ OUTPUT ]----------------------
+
+
+Empty DataFrame
+Columns: [Location, Period, First Tooltip]
+Index: []
+
+
+--------------[ OUTPUT ]----------------------
+
+
+Empty DataFrame
+Columns: [Location, Period, First Tooltip]
+Index: []
+
+
+--------------[ OUTPUT ]----------------------
+
+
+Empty DataFrame
+Columns: [Location, Period, First Tooltip]
+Index: []
+
+
+--------------[ OUTPUT ]----------------------
+
+
+   Location  Period  First Tooltip
+66    Chile    2016            0.8
+
+
+--------------[ OUTPUT ]----------------------
+
+
+   Location  Period  First Tooltip
+48   Brazil    2017          61.50
+49   Brazil    2010          13.40
+50   Brazil    2009           8.27
